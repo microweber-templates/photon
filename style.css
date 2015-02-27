@@ -859,7 +859,7 @@ a.rotator-paging-item-thumbnail{
 
 .module-logo,
 .module-logo *{
-  vertical-align: middle;
+  vertical-align: middle !important;
 }
 
 .fotorama__arr{

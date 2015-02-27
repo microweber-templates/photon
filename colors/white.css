@@ -118,15 +118,6 @@ body.photon-inner #main-content-holder,
    border-top-color:rgba(153, 153, 153, 0.25);
  }
 
- ::-moz-selection {
-    color: #212124;
-    background-color: rgba(255, 255, 255, 0.6);
-}
-
-::selection {
-   color: #212124;
-   background-color: rgba(255, 255, 255, 0.6);
-}
 
 .module-products-template-columns-productimage strong{
     color: white;
@@ -172,10 +163,12 @@ body.photon-inner #main-content-holder,
  border-radius: 0;
 }
 .mw-social-share-links a:hover,
-.mw-social-share-links a:focus{
+#site-main .mw-social-share-links a:hover,
+.mw-social-share-links a:focus,
+#site-main .mw-social-share-links a:focus{
   background-color: #3B3B3B;
   border-color: #3B3B3B;
-  color: white
+  color: white;
 }
 
 #portfolio-container{
