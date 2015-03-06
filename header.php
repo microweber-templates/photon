@@ -31,7 +31,7 @@
               <module type="social_links" id="nav-social-links">
             </div>
             <div id="copyright" class="edit" field="copyright" rel="global">
-              <a href="<?php  print admin_url(); ?>">Admin</a> | Powered by <a href="https://microweber.com" target="_blank">Microweber</a>
+              <a href="<?php  print admin_url(); ?>">Admin</a> | <?php print powered_by_link(); ?>
             </div>
           </div>
           <span id="mobile-menu"><span></span><span></span><span></span></span>

@@ -11,6 +11,7 @@ description: Gallery Page
 
 */
 
+mw_var('photon_layout', 'photon-inner');
 
 ?>
 <?php include THIS_TEMPLATE_DIR. "header.php"; ?>

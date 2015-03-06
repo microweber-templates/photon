@@ -1,10 +1,6 @@
 <?php
-
    mw_var('photon_layout', 'photon-overflow');
 ?>
-
-
-
 
 <?php include THIS_TEMPLATE_DIR. "header.php"; ?>
 	<div class="container">
