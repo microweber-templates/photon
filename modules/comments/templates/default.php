@@ -16,7 +16,7 @@ description: Portfolio Comments
 
    ?>
 
-    asd asd sad sad
+
 <?php $rand = rand();  ?>
 <script>mw.moduleCSS("<?php print $config['url_to_module']; ?>comments.css", true);</script>
 

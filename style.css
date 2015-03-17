@@ -862,6 +862,14 @@ a.rotator-paging-item-thumbnail{
   vertical-align: middle !important;
 }
 
+.module-logo {
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.module-logo img{
+  margin-right: 10px;
+}
+
 .fotorama__arr{
   background: none !important;
   width: 60px;
@@ -1049,6 +1057,10 @@ input[type="number"]{
 
 .module-posts-template-masonry .product-price-holder .btn{
   float: right;
+}
+
+.mw-cart-item img{
+  height: auto;
 }
 
 
