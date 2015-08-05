@@ -180,7 +180,7 @@ description: Portfolio Comments
                         id='comment-captcha-<?php print $rand; ?>'
                         alt="<?php _e("Captcha image"); ?>"
                         class="mw-captcha-img"
-                        src="<?php print site_url('api_html/captcha') ?>?id=<?php print $params['id']; ?>"
+                        src="<?php print api_link('captcha') ?>?id=<?php print $params['id']; ?>"
                         onclick="mw.tools.refresh_image(this);">
           </div>
           <div class="mw-ui-col">
