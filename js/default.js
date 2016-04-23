@@ -71,7 +71,7 @@ $(window).bind('load resize', function(){
 
     documentSize();
 
-
+mw.$("#copyright").show();
 });
 
 

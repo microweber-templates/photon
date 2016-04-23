@@ -36,7 +36,7 @@ description: Owl Portfolio
         <?php $count = -1; foreach ($data as $item): ?>
             <?php $count++; ?>
             <div class="owlportfolio-item">
-                <img src="<?php print $item['filename']; ?>" height="100%" />
+                <img src="<?php print thumbnail($item['filename'], 800, 600); ?>" height="100%" />
                 <?php if ($item['title'] != '') { ?>
                     <div class="owlportfolio-item-description"><?php print $item['title']; ?></div>
                 <?php } ?>

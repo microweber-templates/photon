@@ -188,19 +188,19 @@
       
         // Create events (we check again the $imgCaption because it can be still inexistent)
         if ($imgCaption.length !== 0) {
-          if (!context.settings.cssAnimation) {
-            $imgCaption.stop().fadeTo(context.settings.imagesAnimationDuration, 
-                                      context.settings.captionSettings.nonVisibleOpacity); 
-          }
-          if (typeof captionMouseEvents === 'undefined') {
-            captionMouseEvents = {
-              mouseenter: onEntryMouseEnterForCaption,
-              mouseleave: onEntryMouseLeaveForCaption
-            };
-            $entry.on('mouseenter', undefined, context, captionMouseEvents.mouseenter);
-            $entry.on('mouseleave', undefined, context, captionMouseEvents.mouseleave);
-            $entry.data('jg.captionMouseEvents', captionMouseEvents);
-          }
+     //     if (!context.settings.cssAnimation) {
+//            $imgCaption.stop().fadeTo(context.settings.imagesAnimationDuration, 
+//                                      context.settings.captionSettings.nonVisibleOpacity); 
+//          }
+//          if (typeof captionMouseEvents === 'undefined') {
+//            captionMouseEvents = {
+//              mouseenter: onEntryMouseEnterForCaption,
+//              mouseleave: onEntryMouseLeaveForCaption
+//            };
+//            $entry.on('mouseenter', undefined, context, captionMouseEvents.mouseenter);
+//            $entry.on('mouseleave', undefined, context, captionMouseEvents.mouseleave);
+//            $entry.data('jg.captionMouseEvents', captionMouseEvents);
+//          }
         }
       } else {
         if (typeof captionMouseEvents !== 'undefined') {

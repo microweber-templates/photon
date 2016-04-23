@@ -52,7 +52,7 @@ description: Fotorama
         <?php $count = -1; foreach ($data as $item): ?>
             <?php $count++; ?>
 
-                <a href="<?php print $item['filename']; ?>" <?php if ($item['title'] != '') { ?>data-caption="<?php print $item['title']; ?>"<?php } ?> ><img src="<?php print $item['filename']; ?>" height="100%" /></a>
+                <a href="<?php print thumbnail($item['filename'], 1200, 800); ?>" <?php if ($item['title'] != '') { ?>data-caption="<?php print $item['title']; ?>"<?php } ?> ><img src="<?php print thumbnail($item['filename'], 800, 600); ?>" height="100%" /></a>
 
         <?php endforeach;  ?>
     </div>

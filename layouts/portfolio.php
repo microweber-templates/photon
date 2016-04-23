@@ -22,7 +22,7 @@ description: Portfolio
           data-limit="0"
           id="portfolio-posts"
           data-description-length="100"
-          data-show="thumbnail"
+          data-show="thumbnail,title"
           data-hide-paging="true"
           data-template="justified" />
 
