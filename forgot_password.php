@@ -7,12 +7,15 @@
 
 ?>
 
-<?php include THIS_TEMPLATE_DIR. "header.php"; ?>
-<div id="content">
-    <div class="container">
-        <div class="edit forgot-password-box" field="content" rel="content">
-             <module type="users/forgot_password" />
-         </div>
+<?php include THIS_TEMPLATE_DIR . "header.php"; ?>
+    <div class="edit" rel="content" field="photon_content">
+        <div class="main-content-holder nodrop">
+            <div class="container">
+                <div class="forgot-password-box">
+                    <module type="users/forgot_password"/>
+                    <br />
+                </div>
+            </div>
+        </div>
     </div>
-</div>
-<?php include THIS_TEMPLATE_DIR. "footer.php"; ?>
+<?php include THIS_TEMPLATE_DIR . "footer.php"; ?>

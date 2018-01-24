@@ -10,19 +10,18 @@ is_default: true
 description: Clean layout
 
 */
-
-  mw_var('photon_layout', 'photon-inner');
 ?>
-<?php include TEMPLATE_DIR. "header.php"; ?>
-<div class="page-content">
-  <div class="container edit" field="content" rel="content">
-      <div class="mw-row">
-        <div class="mw-col" style="width: 100%">
-            <div class="mw-col-container">
-                <div class="mw-empty"></div>
-            </div>
-        </div>
-      </div>
-  </div>
+
+<?php include TEMPLATE_DIR . "header.php"; ?>
+
+<div class="edit" rel="content" field="photon_content">
+    <!-- Do not remove this tag -->
+<!--    <module type="layouts" template="skin-1" />-->
+<!--    <module type="layouts" template="skin-2" />-->
+<!--    <module type="layouts" template="skin-3" />-->
+<!--    <module type="layouts" template="skin-4" />-->
+<!--    <module type="layouts" template="skin-5" />-->
+<!--    <module type="layouts" template="skin-6" />-->
 </div>
-<?php include TEMPLATE_DIR. "footer.php"; ?>
+
+<?php include TEMPLATE_DIR . "footer.php"; ?>

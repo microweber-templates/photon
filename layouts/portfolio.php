@@ -10,22 +10,19 @@ description: Portfolio
 
 */
 
-
- mw_var('photon_layout', 'photon-overflow');
-
 ?>
-<?php include THIS_TEMPLATE_DIR. "header.php"; ?>
 
-    <script> $(document).ready(function(){ $("#sidenav").removeClass('active'); }); </script>
-    <module
-          data-type="posts"
-          data-limit="0"
-          id="portfolio-posts"
-          data-description-length="100"
-          data-show="thumbnail,title"
-          data-hide-paging="true"
-          data-template="justified" />
+<?php include THIS_TEMPLATE_DIR . "header.php"; ?>
+
+<script>
+    $(document).ready(function () {
+        $("#sidenav").removeClass('active');
+    });
+</script>
+
+<div class="edit" rel="content" field="photon_content">
+    <module type="layouts" template="skin-4" />
+</div>
 
 
-
-<?php include THIS_TEMPLATE_DIR. "footer.php"; ?>
+<?php include THIS_TEMPLATE_DIR . "footer.php"; ?>
