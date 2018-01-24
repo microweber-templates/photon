@@ -37,3 +37,9 @@
         <span id="mobile-menu"><span></span><span></span><span></span></span>
     </div>
     <div id="main-content">
+
+        <script>
+            $(document).ready(function () {
+//                $("#sidenav").removeClass('active');
+            });
+        </script>
