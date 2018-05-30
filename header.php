@@ -18,7 +18,7 @@
     <meta property="og:site_name" content="{og_site_name}">
     <?php include 'header_scripts.php'; ?>
 </head>
-<body class="<?php print mw_var('photon_layout'); ?>">
+<body class="<?php print mw_var('photon_layout'); ?> <?php print helper_body_classes(); ?>">
 <div id="site-main">
     <module type="shop/cart" template="small" id="header-cart"/>
     <div id="sidenav" class="active">
