@@ -2,6 +2,6 @@
 
 $config = array();
 $config['name'] = "Photon";
-$config['description'] = "";
+$config['description'] = "Photo website template";
 $config['author'] = "Microweber";
-$config['version'] = 1;
+$config['version'] = 1.0;
