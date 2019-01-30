@@ -1,0 +1,16 @@
+{
+  "name": "microweber-templates/photon",
+  "description": "Photo gallery template",
+  "homepage": "https://github.com/microweber-templates/photon",
+  "license": "MIT",
+  "keywords": [
+    "bootstrap3",
+    "gallery",
+    "responsive"
+  ],
+  "type": "microweber-template",
+  "extra": {
+    "folder": "photon",
+    "mw-version": "1.*"
+  }
+}
