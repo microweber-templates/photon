@@ -118,12 +118,12 @@ td {
     transform-origin: top left;
 }
 
-#sidenav:hover,
+/*#sidenav:hover,*/
 #sidenav.active {
     width: 250px;
 }
 
-#sidenav:hover > #side-nav-content,
+/*#sidenav:hover > #side-nav-content,*/
 #sidenav.active > #side-nav-content {
     opacity: 1;
     left: 0;
@@ -172,6 +172,11 @@ body .main-content-holder {
     cursor: pointer;
     right: 15px;
     background: #0d0d0d;
+
+    right: 1px;
+    background: #0d0d0d;
+    padding: 0 12px 12px 12px;
+    box-sizing: content-box;
 }
 
 #mobile-menu span {
