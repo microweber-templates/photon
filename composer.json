@@ -9,8 +9,5 @@
     "responsive"
   ],
   "type": "microweber-template",
-  "extra": {
-    "folder": "photon",
-    "mw-version": "1.*"
-  }
+  "target-dir": "photon"
 }
