@@ -9,5 +9,8 @@
     "responsive"
   ],
   "type": "microweber-template",
-  "target-dir": "photon"
+  "target-dir": "photon",
+  "extra": {
+    "preview_url": "http://photon-template.microweber.com/"
+  }
 }
